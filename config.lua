@@ -10,61 +10,61 @@ Config.MenuItems = {
         items = {
             {
                 id = 'givenum',
-                title = 'Give Contact Details',
+                title = 'Geef contact gegevens',
                 icon = 'address-book',
                 type = 'client',
                 event = 'qb-phone:client:GiveContactDetails',
                 shouldClose = true
             }, {
                 id = 'getintrunk',
-                title = 'Get In Trunk',
+                title = 'Ga in de achterbak',
                 icon = 'car',
                 type = 'client',
                 event = 'qb-trunk:client:GetIn',
                 shouldClose = true
             }, {
                 id = 'cornerselling',
-                title = 'Corner Selling',
+                title = 'Verkoop drugs',
                 icon = 'cannabis',
                 type = 'client',
                 event = 'qb-drugs:client:cornerselling',
                 shouldClose = true
             }, {
                 id = 'togglehotdogsell',
-                title = 'Hotdog Selling',
+                title = 'Hotdog verkoop',
                 icon = 'hotdog',
                 type = 'client',
                 event = 'qb-hotdogjob:client:ToggleSell',
                 shouldClose = true
             }, {
                 id = 'interactions',
-                title = 'Interaction',
+                title = 'interactie',
                 icon = 'triangle-exclamation',
                 items = {
                     {
                         id = 'handcuff',
-                        title = 'Cuff',
+                        title = 'boei',
                         icon = 'user-lock',
                         type = 'client',
                         event = 'police:client:CuffPlayerSoft',
                         shouldClose = true
                     }, {
                         id = 'playerinvehicle',
-                        title = 'Put In Vehicle',
+                        title = 'Stop in voertuig',
                         icon = 'car-side',
                         type = 'client',
                         event = 'police:client:PutPlayerInVehicle',
                         shouldClose = true
                     }, {
                         id = 'playeroutvehicle',
-                        title = 'Take Out Of Vehicle',
+                        title = 'Haal uit voertuig',
                         icon = 'car-side',
                         type = 'client',
                         event = 'police:client:SetPlayerOutVehicle',
                         shouldClose = true
                     }, {
                         id = 'stealplayer',
-                        title = 'Rob',
+                        title = 'steel',
                         icon = 'mask',
                         type = 'client',
                         event = 'police:client:RobPlayer',
@@ -97,17 +97,17 @@ Config.MenuItems = {
     },
     [2] = {
         id = 'general',
-        title = 'General',
+        title = 'algemeen',
         icon = 'rectangle-list',
         items = {
             {
                 id = 'house',
-                title = 'House Interaction',
+                title = 'House interactie',
                 icon = 'house',
                 items = {
                     {
                         id = 'givehousekey',
-                        title = 'Give House Keys',
+                        title = 'Geef huissleutels',
                         icon = 'key',
                         type = 'client',
                         event = 'qb-houses:client:giveHouseKey',
@@ -115,7 +115,7 @@ Config.MenuItems = {
                         items = {}
                     }, {
                         id = 'removehousekey',
-                        title = 'Remove House Keys',
+                        title = 'Verweider huissleutels',
                         icon = 'key',
                         type = 'client',
                         event = 'qb-houses:client:removeHouseKey',
@@ -130,33 +130,33 @@ Config.MenuItems = {
                         shouldClose = true
                     }, {
                         id = 'decoratehouse',
-                        title = 'Decorate House',
+                        title = 'decoreer huis',
                         icon = 'box',
                         type = 'client',
                         event = 'qb-houses:client:decorate',
                         shouldClose = true
                     }, {
                         id = 'houseLocations',
-                        title = 'Interaction Locations',
+                        title = 'huisinteractie',
                         icon = 'house',
                         items = {
                             {
                                 id = 'setstash',
-                                title = 'Set Stash',
+                                title = 'zet stash',
                                 icon = 'box-open',
                                 type = 'client',
                                 event = 'qb-houses:client:setLocation',
                                 shouldClose = true
                             }, {
                                 id = 'setoutift',
-                                title = 'Set Wardrobe',
+                                title = 'zet kledingmenu',
                                 icon = 'shirt',
                                 type = 'client',
                                 event = 'qb-houses:client:setLocation',
                                 shouldClose = true
                             }, {
                                 id = 'setlogout',
-                                title = 'Set Logout',
+                                title = 'zet Logout',
                                 icon = 'door-open',
                                 type = 'client',
                                 event = 'qb-houses:client:setLocation',
@@ -298,47 +298,47 @@ Config.MenuItems = {
 
 Config.VehicleDoors = {
     id = 'vehicledoors',
-    title = 'Vehicle Doors',
+    title = 'Voertuig deuren',
     icon = 'car-side',
     items = {
         {
             id = 'door0',
-            title = 'Drivers door',
+            title = 'bestuurders deur',
             icon = 'car-side',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
             shouldClose = false
         }, {
             id = 'door4',
-            title = 'Hood',
+            title = 'motorkap',
             icon = 'car',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
             shouldClose = false
         }, {
             id = 'door1',
-            title = 'Passengers door',
+            title = 'passagiers deur',
             icon = 'car-side',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
             shouldClose = false
         }, {
             id = 'door3',
-            title = 'Right rear',
+            title = 'Rechts achter',
             icon = 'car-side',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
             shouldClose = false
         }, {
             id = 'door5',
-            title = 'Trunk',
+            title = 'achterbak',
             icon = 'car',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
             shouldClose = false
         }, {
             id = 'door2',
-            title = 'Left rear',
+            title = 'links achter',
             icon = 'car-side',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
@@ -458,7 +458,7 @@ Config.JobInteractions = {
     ["ambulance"] = {
         {
             id = 'statuscheck',
-            title = 'Check Health Status',
+            title = 'Check persoon',
             icon = 'heart-pulse',
             type = 'client',
             event = 'hospital:client:CheckStatus',
@@ -472,21 +472,21 @@ Config.JobInteractions = {
             shouldClose = true
         },{
             id = 'treatwounds',
-            title = 'Heal wounds',
+            title = 'Genees wonden',
             icon = 'bandage',
             type = 'client',
             event = 'hospital:client:TreatWounds',
             shouldClose = true
         }, {
             id = 'emergencybutton2',
-            title = 'Emergency button',
+            title = 'Noodknop button',
             icon = 'bell',
             type = 'client',
             event = 'police:client:SendPoliceEmergencyAlert',
             shouldClose = true
         }, {
             id = 'escort',
-            title = 'Escort',
+            title = 'escorteer',
             icon = 'user-group',
             type = 'client',
             event = 'police:client:EscortPlayer',
@@ -505,7 +505,7 @@ Config.JobInteractions = {
                     shouldClose = false
                 }, {
                     id = 'despawnstretcher',
-                    title = 'Remove Stretcher',
+                    title = 'verweider Stretcher',
                     icon = 'minus',
                     type = 'client',
                     event = 'qb-radialmenu:client:RemoveStretcher',
@@ -531,7 +531,7 @@ Config.JobInteractions = {
             shouldClose = true
         }, {
             id = 'npc_mission',
-            title = 'NPC Mission',
+            title = 'NPC missie',
             icon = 'taxi',
             type = 'client',
             event = 'qb-taxi:client:DoTaxiNpc',
@@ -558,7 +558,7 @@ Config.JobInteractions = {
     ["mechanic"] = {
         {
             id = 'towvehicle',
-            title = 'Tow vehicle',
+            title = 'Sleep voertuig',
             icon = 'truck-pickup',
             type = 'client',
             event = 'qb-tow:client:TowVehicle',
@@ -568,7 +568,7 @@ Config.JobInteractions = {
     ["police"] = {
         {
             id = 'emergencybutton',
-            title = 'Emergency button',
+            title = 'Noodknop',
             icon = 'bell',
             type = 'client',
             event = 'police:client:SendPoliceEmergencyAlert',
@@ -582,21 +582,21 @@ Config.JobInteractions = {
             shouldClose = true
         }, {
             id = 'resethouse',
-            title = 'Reset house lock',
+            title = 'Reset huisslot',
             icon = 'key',
             type = 'client',
             event = 'qb-houses:client:ResetHouse',
             shouldClose = true
         }, {
             id = 'takedriverlicense',
-            title = 'Revoke Drivers License',
+            title = 'Neem rijbewijs in beslag',
             icon = 'id-card',
             type = 'client',
             event = 'police:client:SeizeDriverLicense',
             shouldClose = true
         }, {
             id = 'policeinteraction',
-            title = 'Police Actions',
+            title = 'politie acties',
             icon = 'list-check',
             items = {
                 {
@@ -615,21 +615,21 @@ Config.JobInteractions = {
                     shouldClose = true
                 }, {
                     id = 'escort',
-                    title = 'Escort',
+                    title = 'escorteer',
                     icon = 'user-group',
                     type = 'client',
                     event = 'police:client:EscortPlayer',
                     shouldClose = true
                 }, {
                     id = 'searchplayer',
-                    title = 'Search',
+                    title = 'doorzoek',
                     icon = 'magnifying-glass',
                     type = 'client',
                     event = 'police:client:SearchPlayer',
                     shouldClose = true
                 }, {
                     id = 'jailplayer',
-                    title = 'Jail',
+                    title = 'gevangenis',
                     icon = 'user-lock',
                     type = 'client',
                     event = 'police:client:JailPlayer',
@@ -638,7 +638,7 @@ Config.JobInteractions = {
             }
         }, {
             id = 'policeobjects',
-            title = 'Objects',
+            title = 'objecten',
             icon = 'road',
             items = {
                 {
